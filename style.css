@@ -1,5 +1,6 @@
 body {
-    text-align: center
+    text-align: center;
+    scroll-behavior: smooth;
 }
 
 #Mainpart1 {
@@ -26,29 +27,53 @@ body {
 }
 
 .txts {
-    color: magenta
+    color: magenta;
+    font-family: 'Caveat', cursive;
+    font-variant: small-caps;
 }
+
 
 #menu {
     list-style: none;
     font-family: sans-serif;
-    position: absolute;
-    top: 300px;
-    right: 30px;
+    position: fixed;
+
+    text-align: center;
     z-index: 10;
     cursor: pointer;
 }
-.links{
+
+.links {
     float: left;
     color: hotpink;
-    padding-top:5px;
+    padding-top: 5px;
     padding-left: 9px;
     padding-right: 9px;
     padding-bottom: 5px;
+
+    left: 1000px;
     font-family: fantasy;
     font-variant: small-caps;
-    font-size: 20px;  
+    font-size: 20px;
 }
+
 .links:hover {
     background-color: darkslateblue;
+}
+
+.projectsclass {
+    border-style: ridge;
+    background-color: hotpink;
+    color: navy;
+    font-size: 50px;
+    border-color: CornflowerBlue;
+    border-width: 10px;
+}
+
+#projects {
+    background: linear-gradient(45deg, #614385 0%, #516395 100%);
+}
+h1{
+    color:crimson;
+    font-size: 50px;
 }
