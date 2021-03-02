@@ -67,5 +67,8 @@ var i = 0;
 function changeimgfront() {
     document.getElementById("photochild").src = childphotof[i];
     i++;
+    if (i == 1) {
+        document.getElementById("smoothcool").play();
+    }
 
 }
