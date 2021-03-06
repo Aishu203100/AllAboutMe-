@@ -34,31 +34,33 @@ body {
 
 
 #menu {
-    list-style: none;
     font-family: sans-serif;
     position: fixed;
-
-    text-align: center;
+    top: 0px;
+    margin-top: 0px;
     z-index: 10;
     cursor: pointer;
+    background-color: cornsilk;
+    width: 100%;
 }
 
 .links {
+     left:400px;
     float: left;
     color: hotpink;
-    padding-top: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
-    padding-bottom: 5px;
-
-    left: 1000px;
+    padding-left: 33px;
+    padding-right: 25px;
     font-family: fantasy;
     font-variant: small-caps;
     font-size: 20px;
+    display: inline;
+    left: 400px;
 }
 
 .links:hover {
-    background-color: darkslateblue;
+    font-size: 25px;
+
+
 }
 
 .projectsclass {
@@ -99,8 +101,7 @@ h1{
      transition:transform .2s;  
 }
 #specialproject:hover,.projectsclass:hover,.arrows:hover{
-    
-      transform: scale(0.9);
+transform: scale(0.9);
 
 }
 #specialproject{
@@ -108,4 +109,17 @@ h1{
   border-right-color:#F15BB5;
   border-bottom-color:#00F5D4;
   border-top-color:#ff8360;
+}
+#contact iframe {
+    width: 100%;
+
+}
+
+.contact1 h3 {
+    display: inline;
+}
+
+.contact1 a {
+    color: aliceblue;
+    text-shadow: none;
 }
